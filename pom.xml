@@ -15,11 +15,17 @@
         </license>
     </licenses>
 
+<!--    <scm>-->
+<!--        <url>https://github.com/Samuel-Oliveira/Java_Certificado</url>-->
+<!--        <connection>scm:git:git@github.com:Samuel-Oliveira/Java_Certificado.git</connection>-->
+<!--        <developerConnection>scm:git:git@github.com:Samuel-Oliveira/Java_Certificado.git</developerConnection>-->
+<!--        <tag>java_certificado-2.0</tag>-->
+<!--    </scm>-->
     <scm>
-        <url>https://github.com/Samuel-Oliveira/Java_Certificado</url>
-        <connection>scm:git:git@github.com:Samuel-Oliveira/Java_Certificado.git</connection>
-        <developerConnection>scm:git:git@github.com:Samuel-Oliveira/Java_Certificado.git</developerConnection>
-        <tag>java_certificado-2.0</tag>
+        <connection>scm:git:ssh://git@github.com/tillit-brasil/Java_Certificado.git</connection>
+        <developerConnection>scm:git:ssh://git@github.com/tillit-brasil/Java_Certificado.git</developerConnection>
+        <url>https://github.com/tillit-brasil/Java_Certificado</url>
+        <tag>HEAD</tag>
     </scm>
 
     <properties>
@@ -30,6 +36,16 @@
         <java.version>1.8</java.version>
     </properties>
 
+<!--    <distributionManagement>-->
+<!--        <snapshotRepository>-->
+<!--            <id>sonatype-nexus-snapshots</id>-->
+<!--            <url>https://oss.sonatype.org/content/repositories/snapshots</url>-->
+<!--        </snapshotRepository>-->
+<!--        <repository>-->
+<!--            <id>sonatype-nexus-staging</id>-->
+<!--            <url>https://oss.sonatype.org/service/local/staging/deploy/maven2</url>-->
+<!--        </repository>-->
+<!--    </distributionManagement>-->
     <distributionManagement>
         <repository>
             <id>internal</id>
