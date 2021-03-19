@@ -31,13 +31,10 @@
     </properties>
 
     <distributionManagement>
-        <snapshotRepository>
-            <id>sonatype-nexus-snapshots</id>
-            <url>https://oss.sonatype.org/content/repositories/snapshots</url>
-        </snapshotRepository>
         <repository>
-            <id>sonatype-nexus-staging</id>
-            <url>https://oss.sonatype.org/service/local/staging/deploy/maven2</url>
+            <id>internal</id>
+            <name>TillitBrasil Internal Repository</name>
+            <url>http://191.37.224.19:8080/repository/internal</url>
         </repository>
     </distributionManagement>
 

@@ -1,0 +1,8 @@
+#!/bin/bash
+set -e
+mvn release:prepare -Darguments="-DskipTests"
+mvn release:perform
+mvn release:clean
+project_version=`mvn org.apache.maven.plugins:maven-help-plugin:2.2:evaluate -Dexpression=project.version | grep -v '\['`
+project_version=${project_version//-SNAPSHOT/}
+git commit -m "Preparação para versão ${project_version}"
