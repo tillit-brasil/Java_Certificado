@@ -1,21 +1,21 @@
-# Java_Certificado [![MIT License](https://img.shields.io/github/license/Samuel-Oliveira/Java_Certificado.svg)](https://github.com/Samuel-Oliveira/Java_Certificado/blob/master/LICENSE) [![Maven Central](https://img.shields.io/maven-central/v/br.com.swconsultoria/java_certificado.svg?label=Maven%20Central)](https://search.maven.org/artifact/br.com.swconsultoria/java_certificado/2.3/jar) [![Build Status](https://travis-ci.org/Samuel-Oliveira/Java_Certificado.svg?branch=master)](https://travis-ci.org/Samuel-Oliveira/Java_Certificado) [![Language grade: Java](https://img.shields.io/lgtm/grade/java/g/Samuel-Oliveira/Java_Certificado.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/Samuel-Oliveira/Java_Certificado/context:java) [![Total alerts](https://img.shields.io/lgtm/alerts/g/Samuel-Oliveira/Java_Certificado.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/Samuel-Oliveira/Java_Certificado/alerts/)
+# Java_Certificado [![MIT License](https://img.shields.io/github/license/Samuel-Oliveira/Java_Certificado.svg)](https://github.com/Samuel-Oliveira/Java_Certificado/blob/master/LICENSE) [![Maven Central](https://img.shields.io/maven-central/v/br.com.swconsultoria/java_certificado.svg?label=Maven%20Central)](https://search.maven.org/artifact/br.com.swconsultoria/java_certificado/2.5/jar) [![Build Status](https://travis-ci.org/Samuel-Oliveira/Java_Certificado.svg?branch=master)](https://travis-ci.org/Samuel-Oliveira/Java_Certificado) [![Language grade: Java](https://img.shields.io/lgtm/grade/java/g/Samuel-Oliveira/Java_Certificado.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/Samuel-Oliveira/Java_Certificado/context:java) [![Total alerts](https://img.shields.io/lgtm/alerts/g/Samuel-Oliveira/Java_Certificado.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/Samuel-Oliveira/Java_Certificado/alerts/)
 
 Projeto Java de Gerenciamentos de Certificado Digital
 
 ## Dúvidas, Sugestões ou Consultoria
 Entre no Discord do Projeto: https://discord.gg/ZXpqnaV
 
-## Gostou do Projeto? Dê sua colaboração: [![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=TX9K693QQYA6W)
+## Gostou do Projeto? Dê sua colaboração pelo Pix: 01713390108 <img src="https://swconsultoria.com.br/pix.png" width="200">
 
 Para Iniciar : 
-- Caso use Libs baixe o java-certificado-2.3.jar (https://github.com/Samuel-Oliveira/Java_Certificado/raw/master/java-certificado-2.3.jar) e o adicione às bibliotecas de Seu Projeto.
+- Caso use Libs baixe o java-certificado-2.5.jar (https://github.com/Samuel-Oliveira/Java_Certificado/raw/master/java-certificado-2.5.jar) e o adicione às bibliotecas de Seu Projeto.
 
 - Caso use Maven :
 ```
 <dependency>
     <groupId>br.com.swconsultoria</groupId>
     <artifactId>java_certificado</artifactId>
-    <version>2.3</version>
+    <version>2.5</version>
 </dependency>
 ```
 
@@ -24,9 +24,16 @@ Veja a Wiki https://github.com/Samuel-Oliveira/Java_Certificado/wiki, para ter u
 ________________________________________________________________________________________________
 # Historico de Versões
 
-## v2.4 - SNAPSHOT
+## v2.5 - 04/04/2021
+- Gerado novo Cacert
+- Refatoração nos Métodos de Respositorio (Windows/Mac)
+
+## v2.4 - 01/04/2021
+- Adicionado Cacert e Cacert Util a este projeto, agora este projeto que irá gerenciar os Cacerts.
 - Adicionado propriedade de DataHora de vencimento
 - Removido Objetos Depreciados
+- Melhoria dos Logs
+- Adicionado Tipo Certificado A3 EnterSafe
 
 ## v2.3 - 20/07/2019
 - Corrigido erro Unknow Certificate
